@@ -1,0 +1,49 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+  width: 200px;
+  background-color: #F5F5F5; /* Updated background color for the sidebar */
+  color: #ffffff; /* Text color in the sidebar */
+  height: 100%; /* Full height of the viewport */
+  position: fixed; /* Fixed positioning */
+  top: 6rem; /* Adjusted to fit below the header */
+  left: 0; /* Sidebar aligned to the left */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  padding-top: 3rem; /* Padding at the top */
+}
+
+.sidebar h2 {
+  padding: 2rem; /* Padding around the header text */
+  font-size: 1.2rem; /* Font size for the header text */
+  margin: 0; /* Remove default margin */
+  color: #fff; /* Header text color */
+}
+
+.sidebar-link {
+  display: none; /* Hide sidebar-link class */
+}
+
+.sidebar-button {
+  display: block; /* Display as block element */
+  width: 100%; /* Full width of the sidebar */
+  padding: 0.8rem 1rem; /* Padding inside the button */
+  background-color: #152238; /* Background color for buttons */
+  color: #fff; /* Button text color */
+  border: none; /* Remove default border */
+  text-align: left; /* Left-aligned text */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem; /* Font size for button text */
+  font-weight: bold; /* Bold button text */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-bottom: 0.5rem; /* Margin below each button */
+}
+
+.sidebar-button:hover {
+  background-color: #BCD2E8; /* Background color on hover */
+}
+
+.sidebar-button.active {
+  background-color: #BCD2E8; /* Background color for active button */
+  color: #152238; /* Text color for active button */
+}
